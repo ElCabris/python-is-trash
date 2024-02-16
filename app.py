@@ -33,6 +33,7 @@ def run_script(script_path):
         os.system('python {}'.format(script_path))
     except Exception as e:
         print("Error:", e)
+    input("Press Enter to return to the menu...")
 
 # Main function to create the menu
 def main():
